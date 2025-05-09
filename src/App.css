@@ -1,0 +1,244 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0a0a0a; /* cor escura como na imagem */
+    color: white;
+    font-family: sans-serif;
+  }
+ 
+  /* HOME  */
+  .home-container {
+    padding: 1rem;
+    position: relative;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 1rem;
+    padding-left: 1rem;
+  }
+  .social-icons a {
+    color: white;
+    font-size: 1.2rem;
+  }
+  
+  .lojas {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem 0;
+  }
+  .loja-box {
+    background: #1c1c1c;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+  }
+  .loja-box.ativa {
+    background: #2d0f06;
+    border: 1px solid #e62a2a;
+    cursor: pointer;
+  }
+
+  .icone {
+    font-size: 1.5rem;
+  }
+
+  .ender {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .busca {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin: 40px auto;
+  }
+  .busca input  {
+    padding: 1rem;
+    width: 780px;
+    border-radius: 10px;
+    border: none;
+    background: #222;
+    color: white;
+  }
+  .busca button {
+    padding: 0.8rem 1.5rem;
+    margin: 4px;
+    background: none;
+    border: 1px solid #e62a2a;
+    color: #e62a2a;
+    border-radius: 20px;
+    width: 150px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  .busca button:hover {
+    background: #e62a2a;
+    color: #fff;
+  }
+  
+  .destaques {
+    text-align: center;
+  }
+  .destaques h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  .preco {
+    color: #e62a2a;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+  }
+  
+  .whatsapp-btn {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background: #e62a2a;
+    padding: 15px;
+    border-radius: 50%;
+    color: white;
+    font-size: 1.5rem;
+    box-shadow: 0 0 10px #e62a2a;
+    z-index: 100;
+  }
+
+  /* empresa */
+
+  .enter-container {
+    text-align: center;
+    padding: 3rem
+  }
+
+
+  .enter-container p {
+    font-weight: bold;
+    padding: 4rem;
+    font-size: 20px;
+  }
+
+  /* Estilos responsivos para dispositivos móveis */
+@media (max-width: 768px) {
+  .enter-container {
+    padding: 2rem; 
+  }
+
+  .enter-container p {
+    font-size: 18px; 
+    padding: 2rem; 
+  }
+}
+
+/* Estilos para telas muito pequenas (exemplo: celulares) */
+@media (max-width: 480px) {
+  .enter-container {
+    padding: 1rem; 
+  }
+
+  .enter-container p {
+    font-size: 16px; 
+    padding: 1rem; 
+  }
+}
+
+  .card-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+  
+  .card {
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+   .cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  
+  .card img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    border-radius: 8px;
+  }
+  
+  .card h3 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .card p {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 1rem;
+  }
+  
+  /* Efeito de hover para os cards */
+  .card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+
+  /* contato css */
+  .contact-container {
+    max-width: 580px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .contact-form {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  .contact-form textarea {
+    resize: vertical;
+    min-height: 120px;
+  }
+  
+  .contact-form button {
+    background-color: #e62a2a;
+    color: white;
+    border: none;
+    padding: 0.9rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-form button:hover {
+    background-color: #974f4f;
+  }
+
+ 
+  
